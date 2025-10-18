@@ -18,10 +18,10 @@ count = 0
 
 while True:
 
-    count = count + 1
+    count = count + 2
     print("Deneme:", count)
     time.sleep(0.5)
 
     if count == 10:
-        print("bıyyy")
+        print("bıyyy code")
         break
