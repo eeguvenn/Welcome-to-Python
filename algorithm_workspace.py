@@ -19,7 +19,7 @@ if m == n:
     print("Perfect Number")
 else:
     print("Not Perfect Number")
-"""
+
 # Armstrong number controller
 
 number = int(input("Enter a number (bigger than 0): "))
@@ -58,3 +58,28 @@ else:
         print("Armstrong Number")
     else:
         print("Not Armstrong Number")
+
+
+# Multiplication Table
+
+for i in range(1, 11):
+    print("********************************")
+    for j in range(1, 11):
+
+        print("{} x {} = {}".format(i, j, i*j))
+"""
+# Summing the entered numbers until “q” is pressed
+
+total = 0
+
+while True:
+
+    number = input("Number:")
+
+    if (number == "q"):
+        break
+    number = int(number)
+
+    total += number
+
+print("Sum of enterence number :", total)
